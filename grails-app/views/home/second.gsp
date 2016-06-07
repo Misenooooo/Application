@@ -5,7 +5,8 @@
 </header>
 
 <body>
-
+    <browser:isChrome>Chroome is a good browser</browser:isChrome>
+    <browser:isFirefox>Mozzila firefox is a good browser</browser:isFirefox>
 
     <form>
         Project <input type="text" value=${project}>

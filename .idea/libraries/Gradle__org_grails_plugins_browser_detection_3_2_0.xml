@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:browser-detection:3.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/browser-detection/3.2.0/e17d94877463b94712693bcaa4811c9a31bb29e0/browser-detection-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/browser-detection/3.2.0/ff5429aadfa1bd5a143eaa9b0788ec1dda38abdc/browser-detection-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

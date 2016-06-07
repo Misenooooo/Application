@@ -4,6 +4,9 @@ import java.sql.Timestamp
 
 class Client {
 
+    String userName
+    String password
+
     String firstName
     String lastName
     String email
