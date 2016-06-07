@@ -1783,7 +1783,7 @@
       <workItem from="1465221493640" duration="16751000" />
       <workItem from="1465277314691" duration="13147000" />
       <workItem from="1465302121226" duration="1292000" />
-      <workItem from="1465303463011" duration="4459000" />
+      <workItem from="1465303463011" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="Commit save pomocou Hibernatu Clienta do databazy">
       <created>1465252177715</created>
@@ -1799,7 +1799,14 @@
       <option name="project" value="LOCAL" />
       <updated>1465308657846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit vsetko hlavne otestovane, este dorobit nejaku logiku">
+      <created>1465308666389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1465308666389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1835,7 +1842,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38950000" />
+    <option name="totallyTimeSpent" value="38963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
