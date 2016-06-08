@@ -5,14 +5,17 @@
 </header>
 
 <body>
+<h1>
+    Welcome to the login page
+</h1>
 <g:form method="post" action="login">
     <fieldset>
-        <legend>Login </legend>
+        <legend>Login</legend>
         <label>User name:</label>
-        <g:textField name="userName" value="${userName}"/>
+        <g:textField id="userName" name="userName"/>
         <label>Password:</label>
-        <g:passwordField name="password"/>
-        <input type="submit" name="Login">
+        <g:passwordField id="password" name="password"/>
+        <input id="loginButton" type="submit" name="Login">
     </fieldset>
 </g:form>
 </body>

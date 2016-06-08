@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="sk">
-<header>
+<head>
     <meta charset="UTF-8">
-</header>
+    <title>
+        Register Form
+    </title>
+</head>
 
 <body>
 <g:form method="post" controller="Client" action="save">
     <fieldset>
         <legend>Personal detail</legend>
         <label>First name:</label>
-        <g:textField name="firstName"/>
+        <g:textField id="firstName" name="firstName"/>
         <label>Last name:</label>
-        <g:textField name="lastName"/>
+        <g:textField id="lastName" name="lastName"/>
         <label>User name:</label>
-        <g:textField name="userName"/>
+        <g:textField id="userName" name="userName"/>
         <label>Password:</label>
-        <g:passwordField name="password"/>
+        <g:passwordField id="password" name="password"/>
     </fieldset>
     <fieldset>
         <legend>Contact information</legend>
         <label>Email:</label>
-        <g:textField name="email" />
+        <g:textField id="email" name="email" />
         <label>Telephone number:</label>
-        <g:textField name="telephoneNumber"/>
+        <g:textField id="telephoneNumber" name="telephoneNumber"/>
     </fieldset>
-    <input type="submit" name="Register">
+    <input id="registerButton" type="submit" name="Register">
 </g:form>
 </body>
 

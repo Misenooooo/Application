@@ -16,12 +16,12 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: update
+            dbCreate: create-drop
             url: jdbc:postgresql://localhost:5432/application
     test:
         dataSource:
-            dbCreate: update
-            url: jdbc:postgresql://localhost:5432/application
+            dbCreate: create-drop
+            url: jdbc:postgresql://localhost:5432/applicationTest
     production:
         dataSource:
             dbCreate: update
